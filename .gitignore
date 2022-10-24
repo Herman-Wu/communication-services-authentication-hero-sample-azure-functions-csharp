@@ -1,0 +1,8 @@
+# Build results
+src/**/[Bb]in/
+src/**/[Oo]bj/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+.editorconfig
+.vscode/
