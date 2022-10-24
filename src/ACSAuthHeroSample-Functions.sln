@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedAuth.API.Func", "AdvancedAuth.API.Func\AdvancedAuth.API.Func.csproj", "{ADB8F92F-90A1-4BCB-8B30-0A3E7C24FB40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedAuth.Core.Common", "AdvancedAuth.Core.Common\AdvancedAuth.Core.Common.csproj", "{72EBFB8F-3442-4C79-958D-7D232F4DAEEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolatedFunctionAuth", "IsolatedFunctionAuth\IsolatedFunctionAuth.csproj", "{F8F3F980-5ACC-4593-9DBF-E8192F894422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB8F92F-90A1-4BCB-8B30-0A3E7C24FB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB8F92F-90A1-4BCB-8B30-0A3E7C24FB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB8F92F-90A1-4BCB-8B30-0A3E7C24FB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB8F92F-90A1-4BCB-8B30-0A3E7C24FB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72EBFB8F-3442-4C79-958D-7D232F4DAEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EBFB8F-3442-4C79-958D-7D232F4DAEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EBFB8F-3442-4C79-958D-7D232F4DAEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EBFB8F-3442-4C79-958D-7D232F4DAEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F3F980-5ACC-4593-9DBF-E8192F894422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F3F980-5ACC-4593-9DBF-E8192F894422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F3F980-5ACC-4593-9DBF-E8192F894422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F3F980-5ACC-4593-9DBF-E8192F894422}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {901A0572-376F-41F5-A869-225F117A1194}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<RootNamespace>AdvancedAuth.Core.Common</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Azure.Communication.Identity" Version="1.1.0-beta.1" />
+	  <PackageReference Include="Functions.Worker.ContextAccessor" Version="1.0.0" />
+	  <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.8" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="6.0.4" />
+	  <PackageReference Include="Microsoft.Identity.Web" Version="1.21.1" />
+	  <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.21.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\ProjectGit_Hack\advanced-communication-services-authentication-hero-sample\src\AdvancedAuth.Core.Common\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\ProjectGit_Hack\advanced-communication-services-authentication-hero-sample\src\AdvancedAuth.Core.Common\.editorconfig" />
+  </ItemGroup>
+
+</Project>

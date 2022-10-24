@@ -1,0 +1,23 @@
+{
+    "resourceGroupPrefix": "rg",
+    "storageAccountPrefix": "st",
+    "storageAccountMaxLength": 24,
+    "functionPrefix": "func",
+    "functionMaxLength": 60,
+    "statusfuncPostfix": "acstrigger",
+    "statusfunctionMaxLength": 60,    
+    "funcPlanPrefix": "plan",
+    "funcPlanMaxLength": 40, 
+    "allowAzureServiceIP":
+    {
+        "endIpAddress": "0.0.0.0",
+        "startIpAddress": "0.0.0.0"
+    },
+    "communicationServicePrefix": "acs",
+    "communicationServiceMaxLength": 63,
+    "keyVaultPrefix": "kv",
+    "keyVaultMaxLength": 24,
+    "keyVaultSecretExp": 1767142800,
+    "appInsightPrefix": "appi",
+    "appInsightMaxLength": 260
+}
